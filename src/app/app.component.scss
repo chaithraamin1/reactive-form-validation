@@ -1,0 +1,49 @@
+.form-container
+{
+    display: block;
+    width: 90%;
+    padding: 2em;
+    margin: 2em auto;
+    background:#fff;
+}
+.input
+{
+    width: 70%;
+    height: 40%;
+}
+
+.button
+{
+    color: white;
+    background-color: blue;
+    border: 0px;
+    width: 70%;
+    margin-top: 3rem;
+}
+h1{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2rem;
+    font-size: 2em;
+    animation: 2s alertanimation forwards;
+}
+.alert
+{
+    padding: 7px;
+    font-size: .9em;
+    margin-bottom:20px ;
+    display: inline-block;
+
+}
+@keyframes alertanimation
+{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+
+    }
+   to {
+        opacity: 1;
+        transform:translateY(0)
+    } 
+}
